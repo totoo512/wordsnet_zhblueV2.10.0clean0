@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/menu_item_sort"
+        android:title="排序"
+        android:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/menu_item_version"
+        android:title="关于"
+        android:showAsAction="ifRoom|withText" />
+</menu>

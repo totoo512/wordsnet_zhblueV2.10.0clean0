@@ -1,0 +1,15 @@
+*.imL
+.gradLe
+/Local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xmL
+/.idea/workspace.xmL
+/.idea/navEditor.xmL
+/.idea/assetWizardSettings.xmL
+.DS_Store
+/build
+/captures
+.externaLNativeBuild
+.CXX
+Local.properties

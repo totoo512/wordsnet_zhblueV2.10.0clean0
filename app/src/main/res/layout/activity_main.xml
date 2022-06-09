@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:id="@+id/all_content"
+    >
+    
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/tabmain_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#eee"
+        android:layout_weight="1" />
+    
+	<View
+    	android:layout_width="fill_parent"
+    	android:layout_height="0.5dp"
+    	android:background="#b2b2b2"
+    	android:alpha="0.5"
+    />
+	
+    <com.shizhefei.view.indicator.FixedIndicatorView
+        android:background="@android:color/white"
+        android:id="@+id/tabmain_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="47.5dp"
+        android:alpha="0.8"
+        android:paddingTop="4dp"
+         />
+
+</LinearLayout>

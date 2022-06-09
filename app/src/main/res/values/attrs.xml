@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="iwordTabIndicatorStyle" format="reference" />
+    <attr name="main_bg_color" format="color" />
+    <attr name="huanbo_bg" format="reference" />
+    <attr name="title_bar_word_color" format="color" />
+    <attr name="green_button" format="reference" />
+    <attr name="gray_button" format="reference" />
+    <attr name="share_dialog_bg" format="color" />
+    <attr name="setting_bg" format="reference" />
+    <attr name="setting_text_color1" format="color" />
+    <attr name="setting_text_color2" format="color" />
+    <attr name="share_icon_bg" format="reference" />
+    <attr name="search_bg" format="reference" />
+    <attr name="book_bg" format="reference" />
+    <attr name="book_top_bg" format="color" />
+    <attr name="book_bg_without_bottom" format="reference" />
+    <attr name="unit_list_divider" format="reference" />
+    <attr name="unit_list_divider2" format="reference" />
+    <attr name="study_word_detail_cn_word_color" format="color" />
+    <attr name="progress_bg" format="reference" />
+    <attr name="spell_icon" format="reference" />
+    <attr name="progress_bar" format="reference" />
+    <attr name="progress_bar_consolidate_1" format="reference" />
+    <attr name="progress_bar_consolidate_2" format="reference" />
+    <attr name="progress_bar_consolidate_3" format="reference" />
+    <attr name="progress_bar_consolidate_4" format="reference" />
+    <attr name="test_bg1" format="reference" />
+    <attr name="word_note_item_word" format="color" /> <!-- 学习(认识不认识界面)英文字体颜色 -->
+    <attr name="word_note_item_phe" format="color" /> <!-- 学习(认识不认识界面)音标字体颜色 -->
+    <attr name="word_note_item_translation" format="color" /> <!-- 学习(认识不认识界面)中文字体颜色 -->
+    <attr name="relation_cn_string" format="color" /> <!-- 学习界面(太简单，继续学习界面)的中文字 -->
+    <attr name="relationship_text" format="color" /> <!-- 学习界面(认识，不认识界面)的词组文字颜色 -->
+    <attr name="spell_dialog_bg" format="color" /> <!-- 学习mode1fragment中拼写界面背景色 -->
+    <attr name="spell_dialog_bg_blur" format="reference" /> <!-- 学习mode1fragment中拼写界面背景色 -->
+    <attr name="end_study_dialog_text_color" format="color" />
+    <attr name="end_close_icon" format="reference" />
+    <attr name="huanbo_listen_linearlayout_bg" format="reference" /> <!-- 我的单词本界面听音复习按钮背后的图片 -->
+    <attr name="tab_indicator_selector" format="reference" /> <!-- 我的单词本界面tab背景图片 -->
+    <attr name="tab_indicator_divider" format="reference" /> <!-- 我的单词本界面tab背景图片 -->
+    <attr name="note_checkbox_selector" format="reference" />
+    <attr name="huanbo_state_bg" format="reference" />
+    <attr name="setting_time_words_num_bg" format="reference" />
+    <attr name="setting_plan_endtime_bg" format="reference" />
+    <attr name="icon_share" format="reference" />
+    <attr name="listview_clicked_color" format="color" />
+    <attr name="wallpaper_button_bg_selector" format="reference" />
+    <attr name="download_popup_bg_head" format="reference" />
+    <attr name="write_popup_bg_tail" format="reference" />
+    <attr name="text_color_for_huanbo_hint" format="color" />
+    <attr name="login_background" format="reference" />
+    <attr name="login_input_background_top" format="reference" />
+    <attr name="login_input_background_middle" format="reference" />
+    <attr name="login_input_background_bottom" format="reference" />
+    <attr name="window_check_logout_top" format="reference" />
+    <attr name="white_gray_text_color" format="color" />
+    <attr name="black_gray_text_color" format="color" />
+    <attr name="hint_gray_text_color" format="color" />
+    <attr name="window_check_logout_middle" format="reference" />
+    <attr name="window_check_logout_bottom" format="reference" />
+    <attr name="word_book_bg_selector" format="reference" />
+    <attr name="affix_ji" format="reference" />
+    <attr name="rest_button" format="reference" />
+    <attr name="setting_bg_normal" format="reference" />
+    <attr name="setting_bg_bottom" format="reference" />
+    <attr name="setting_bg_top" format="reference" />
+    <attr name="slide_menu_bg" format="reference" />
+    <attr name="calendar_divider_color" format="color" />
+    <attr name="calendar_bottom" format="color" />
+    <attr name="calendar_bottom_text" format="color" />
+    <attr name="calendar_week" format="color" />
+    <attr name="regular_bg" format="reference" />
+    <attr name="leader_board_divider" format="color" />
+    <attr name="leader_board_name" format="color" />
+    <attr name="leader_board_bg" format="color" />
+    <attr name="titlebar_search_view_bg" format="reference" />
+    <attr name="write_view_icon_play_voice" format="reference" />
+    <attr name="write_view_icon_hint" format="reference" />
+    <attr name="write_view_icon_restart" format="reference" />
+    <attr name="write_view_icon_close" format="reference" />
+    <attr name="word_inner_divider" format="color" />
+    <attr name="affix_cn" format="color" />
+    <attr name="feed_back_bottom" format="color" />
+    <attr name="feed_back_bottom_divider" format="color" />
+    <attr name="fb_dev_reply_bg" format="reference" />
+    <attr name="fb_date_bg" format="reference" />
+    <attr name="select_book_title_bg" format="reference" />
+    <attr name="question_bg" format="color" />
+    <attr name="choice_error_bg" format="color" />
+    <attr name="choice_error_divider" format="color" />
+    <attr name="view_dialog_title_bg" format="reference" />
+    <attr name="view_dialog_content_bg" format="color" />
+    <attr name="view_dialog_btn" format="reference" />
+    <attr name="view_dialog_left_btn" format="reference" />
+    <attr name="view_dialog_right_btn" format="reference" />
+    <attr name="menu_divider" format="color"/>
+    <attr name="mode34_hint_color" format="color"/>
+    <attr name="listen_btn_bg" format="reference" />
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="FlowLayout">
+        <attr name="horizontalSpacing" format="dimension" />
+        <attr name="verticalSpacing" format="dimension" />
+        <attr name="orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="debugDraw" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="FlowLayout_LayoutParams">
+        <attr name="layout_newLine" format="boolean" />
+        <attr name="layout_horizontalSpacing" format="dimension" />
+        <attr name="layout_verticalSpacing" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="RoundProgressBar">
+        <attr name="roundProgressColor" format="color" />
+        <attr name="roundWidth" format="dimension" />
+        <attr name="max" format="integer" />
+    </declare-styleable>
+
+</resources>

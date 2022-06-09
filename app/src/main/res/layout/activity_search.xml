@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/search_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/title_bar_search_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableLeft="@drawable/search_hint"
+            android:drawablePadding="7dp"
+            android:gravity="center_vertical"
+            android:hint="请输入要搜索的词汇"
+            android:imeOptions="actionSearch"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/title_bar_search_clear_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/search_cancel_button_selector"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+
+    <ViewFlipper
+        android:id="@+id/search_main_flipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/listView_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@drawable/unit_list_divider"
+            android:listSelector="#dddddd"></ListView>
+
+        <RelativeLayout
+            android:id="@+id/search_no_results"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:drawablePadding="10dip"
+                android:text="没有找到对应的单词"
+                android:textColor="#CDC6BC"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+    </ViewFlipper>
+</LinearLayout>

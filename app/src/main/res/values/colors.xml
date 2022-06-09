@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bottom_background">#b2b2b2</color>
+    <color name="tab_text_color">#6A727F</color>
+    <color name="pink">#FF2A82</color>
+
+    <!-- App -->
+    <color name="word_text_color">#646464</color>
+    <color name="word_phonetic_color">#aaaaaa</color>
+    <color name="main_text_color">#cccccc</color>
+    <color name="tab_indicator_text_color">#0e7176</color>
+    <color name="list_clicked_color">#dddddd</color>
+    <!-- tabIndicator字体颜色 -->
+    <color name="unit_item_bg">#f2eee9</color>
+    <!-- Word Unit Item -->
+    <color name="unit_item_bg_down">#ffffff</color>
+
+    <color name="word_note_top_text_color">#9f9f9f</color>
+    <color name="test_select_title">#999999</color>
+
+    <!-- <color name="main_bg_color">#f6f6f6</color> 背景主色调 -->
+    <color name="main_bg_color">#f2eee9</color>
+
+    <!-- 透明 -->
+    <color name="transparent">#0000</color>
+
+
+</resources>
